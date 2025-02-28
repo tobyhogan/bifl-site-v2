@@ -1,4 +1,4 @@
-import { FC } from 'react';
+import React, { FC } from 'react';
 
 const Home: FC = () => {
   const categories = [
@@ -10,16 +10,27 @@ const Home: FC = () => {
   ];
 
   return (
-    <main className="container mx-auto px-6 py-12 flex-grow">
+    <main className="container mx-auto px-6 flex-grow">
       <div className="max-w-4xl mx-auto">
-        <h1 className="text-5xl font-bold text-gray-800 mb-8 leading-tight">
-          Welcome to <span className="text-transparent bg-clip-text bg-gradient-to-r from-purple-600 to-blue-600">Bifoli</span>
+        <h1 className="text-4xl font-bold text-gray-800 mt-8">
+          Welcome to <span className="bg-clip-text text-green-600">Bifoli</span>
         </h1>
         
         {/* Categories Section */}
-        <div className="mb-16">
-          <h2 className="text-2xl font-semibold text-gray-800 mb-6">Categories</h2>
-          <div className="grid grid-cols-2 md:grid-cols-5 gap-4">
+        <div>
+          <p className="text-xl text-gray-600 mt-6 leading-relaxed">
+            Are you tired of stuff you own breaking due to lack of care or planned obsolescence from the manufacturers?
+          </p>
+          <p className="text-xl text-gray-600 mt-6 leading-relaxed">
+            This website aims to be a repository of certified products from crowd-sourced, verified reviews and feedback. 
+          </p>
+        </div>
+        <div className="mt-8">
+          <div className='flex flex-row'>
+            <h2 className="text-2xl font-semibold text-gray-800 mr-2">Categories</h2>
+            <p className='mt-[5px]'>(A -&gt; Z)</p>
+          </div>
+          <div className="mt-3 grid grid-cols-2 md:grid-cols-5 gap-4">
             {categories.map((category) => (
               <a
                 key={category.name}
@@ -34,12 +45,9 @@ const Home: FC = () => {
           </div>
         </div>
 
-        <p className="text-xl text-gray-600 mb-12 leading-relaxed">
-          This is a modern website built with React, Vite, and Tailwind CSS. Experience seamless design and powerful functionality.
-        </p>
       </div>
     </main>
   );
 };
 
-export default Home; 
+export default Home;
