@@ -1,8 +1,9 @@
-import { FC } from 'react';
+import React, { FC } from 'react'; // Add import for React
+import { FaTshirt } from 'react-icons/fa'; // Import the shirt icon
 
 const Clothes: FC = () => {
   const clothesCategories = [
-    { name: 'T-Shirts', link: '/clothes/t-shirts' },
+    { name: 'T-Shirts', link: '/clothes/t-shirts', icon: <FaTshirt className="shirt-icon" /> },
     { name: 'Sweaters', link: '#' },
     { name: 'Underwear', link: '#' },
     { name: 'Trousers', link: '#' },
@@ -25,7 +26,10 @@ const Clothes: FC = () => {
                        transform hover:-translate-y-1 flex items-center justify-center
                        border border-gray-100 min-h-[100px]"
             >
-              <span className="text-gray-700 font-medium text-lg">{category.name}</span>
+              <span className="text-gray-700 font-medium text-lg flex items-center">
+                {category.name}
+                <div className='ml-1'></div>{category.icon && category.icon} {/* Add the icon if it exists */}
+              </span>
             </a>
           ))}
         </div>
@@ -34,4 +38,4 @@ const Clothes: FC = () => {
   );
 };
 
-export default Clothes; 
+export default Clothes;

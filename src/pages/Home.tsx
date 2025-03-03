@@ -19,16 +19,16 @@ const Home: FC = () => {
         {/* Categories Section */}
         <div>
           <p className="text-xl text-gray-600 mt-6 leading-relaxed">
-            Are you tired of stuff you own breaking due to lack of care or planned obsolescence from the manufacturers?
+            Are you tired of stuff you own breaking due to poor quality or planned obsolescence from the manufacturers?
           </p>
           <p className="text-xl text-gray-600 mt-6 leading-relaxed">
-            This website aims to be a repository of certified products from crowd-sourced, verified reviews and feedback. 
+            This website aims to be a repository of certified products from crowd-sourced, verified reviews and feedback, so you know they'll last.
           </p>
         </div>
         <div className="mt-8">
           <div className='flex flex-row'>
             <h2 className="text-2xl font-semibold text-gray-800 mr-2">Categories</h2>
-            <p className='mt-[5px]'>(A -&gt; Z)</p>
+            <p className='mt-[5px]'>(Listed A → Z)</p>
           </div>
           <div className="mt-3 grid grid-cols-2 md:grid-cols-5 gap-4">
             {categories.map((category) => (
