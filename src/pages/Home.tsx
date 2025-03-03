@@ -1,12 +1,19 @@
 import React, { FC } from 'react';
+import { FaTshirt } from 'react-icons/fa';
+import { RiKnifeLine } from "react-icons/ri";
+import { PiTShirtBold } from "react-icons/pi";
+import { TbShoe } from "react-icons/tb";
+import { LuDrill } from "react-icons/lu";
+import { MdOutlineMouse } from "react-icons/md";
+import { PiMouseBold } from "react-icons/pi";
 
 const Home: FC = () => {
   const categories = [
-    { name: 'Clothes', link: '/clothes' },
-    { name: 'Kitchenware', link: '#' },
-    { name: 'Electronics', link: '#' },
-    { name: 'Footwear', link: '#' },
-    { name: 'Tools', link: '#' },
+    { name: 'Clothes', link: '/clothes', icon: <PiTShirtBold /> },
+    { name: 'Kitchenware', link: '#', icon: <RiKnifeLine style = {{transform: 'rotate(90deg) scaleX(-1)' }} /> },
+    { name: 'Electronics', link: '#', icon: <PiMouseBold style={{marginLeft: '-3px' }} />},
+    { name: 'Footwear', link: '#', icon: <TbShoe /> },
+    { name: 'Tools', link: '#', icon: <LuDrill /> },
   ];
 
   return (
@@ -40,6 +47,7 @@ const Home: FC = () => {
                          border border-gray-100"
               >
                 <span className="text-gray-700 font-medium">{category.name}</span>
+                {category.icon && <span className="ml-2 mt-0.5">{category.icon}</span>}
               </a>
             ))}
           </div>
