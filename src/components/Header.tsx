@@ -9,7 +9,7 @@ const Header: FC = () => {
             href="/" 
             className="text-2xl font-bold tracking-tight text-green-200 hover:text-green-300 transition-colors cursor-pointer"
           >
-            Bifolife
+            LifeBoughtFor
           </a>
           <ul className="flex items-center space-x-8">
             <li>
