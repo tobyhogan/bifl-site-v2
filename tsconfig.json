@@ -10,8 +10,7 @@
     "./*.js"
   ],
   "exclude": [
-    "node_modules"
+    "node_modules",
+    "tailwind.config.js" // Add this line to exclude your Tailwind config
   ]
 }
-
-
