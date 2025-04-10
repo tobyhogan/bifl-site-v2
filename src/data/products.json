@@ -1,0 +1,66 @@
+{
+  "products": {
+    "clothes": {
+      "t-shirts": [
+        {
+          "id": "CL001-TS001",
+          "description": "Basic Cotton Tee from brand ZigMe"
+        },
+        {
+          "id": "CL001-TS002",
+          "name": "Striped Crew Neck"
+        },
+        {
+          "id": "CL001-TS003",
+          "name": "Graphic Print Tee"
+        }
+      ],
+      "jeans": [
+        {
+          "id": "CL001-JE001",
+          "name": "Slim Fit Jeans"
+        },
+        {
+          "id": "CL001-JE002",
+          "name": "Relaxed Fit Jeans"
+        }
+      ]
+    },
+    "tools": {
+      "hand_tools": [
+        {
+          "id": "TL002-HT001",
+          "name": "Hammer"
+        },
+        {
+          "id": "TL002-HT002",
+          "name": "Screwdriver Set"
+        }
+      ],
+      "power_tools": [
+        {
+          "id": "TL002-PT001",
+          "name": "Cordless Drill"
+        }
+      ]
+    },
+    "shoes": {
+      "sneakers": [
+        {
+          "id": "SH003-SN001",
+          "name": "Running Shoes"
+        },
+        {
+          "id": "SH003-SN002",
+          "name": "Casual Sneakers"
+        }
+      ],
+      "boots": [
+        {
+          "id": "SH003-BT001",
+          "name": "Leather Boots"
+        }
+      ]
+    }
+  }
+}
