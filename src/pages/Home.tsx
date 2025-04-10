@@ -20,13 +20,13 @@ const Home: FC = () => {
     <main className="container mx-auto px-6 flex-grow min-h-[100vh]">
       <div className="max-w-4xl mx-auto">
         <h1 className="text-4xl font-bold text-gray-800 mt-8">
-          Welcome to <span className="bg-clip-text text-green-600">BoughtForLiving A</span>
+          Welcome to <span className="bg-clip-text text-green-600">BoughtForLiving</span>
         </h1>
         
         {/* Categories Section */}
         <div>
           <p className="text-xl text-gray-600 mt-6 leading-relaxed">
-            Are you tired of stuff you own breaking due to poor quality or planned obsolescence from the manufacturers?
+            Tired of stuff you own breaking due to poor quality or planned obsolescence from manufacturers?
           </p>
           <p className="text-xl text-gray-600 mt-6 leading-relaxed">
             This website aims to be a repository of certified products from crowd-sourced, verified reviews and feedback, so you know they'll last.
