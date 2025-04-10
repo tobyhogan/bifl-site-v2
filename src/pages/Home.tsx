@@ -29,7 +29,8 @@ const Home: FC = () => {
             Tired of stuff you own breaking due to poor quality or planned obsolescence from manufacturers?
           </p>
           <p className="text-xl text-gray-600 mt-6 leading-relaxed">
-            This website aims to be a repository of certified products from crowd-sourced, verified reviews and feedback, so you know they'll last.
+            This website aims to be a repository of certified products from crowd-sourced, verified reviews and feedback, so
+            you know what you get will last.
           </p>
         </div>
         <div className="mt-8">
