@@ -38,7 +38,7 @@ export default App;
 // dkfjasdl;kfjaskldjfl;asdkjf;lasdkjf;asldkfj;asdlkjfasd; lkfasd;lkfjasdl;kfjasd;lkfjasdl;kfj;dlkfj
 
 import { useState } from 'react'
-import { BrowserRouter as Router, Routes, Route, Link } from "react-router-dom";
+import { BrowserRouter, Routes, Route, Link } from "react-router-dom";
 
 
 //import { ContextMenuProvider } from 'mantine-contextmenu';
@@ -65,7 +65,7 @@ function App() {
   navigator.wakeLock.request("screen")
 
   return (
-    <Router>
+    <BrowserRouter>
       <div className=''>
         <Header />
         <Routes>
@@ -79,7 +79,7 @@ function App() {
         </Routes>
         <Footer />
       </div>
-    </Router>
+    </BrowserRouter>
 
   );
 }
