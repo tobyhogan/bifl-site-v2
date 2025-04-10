@@ -20,7 +20,7 @@ const Home: FC = () => {
     <main className="container mx-auto px-6 flex-grow min-h-[100vh]">
       <div className="max-w-4xl mx-auto">
         <h1 className="text-4xl font-bold text-gray-800 mt-8">
-          Welcome to <span className="bg-clip-text text-green-600">BoughtForLiving</span>
+          Welcome to <span className="bg-clip-text text-green-600">BoughtForLiving A</span>
         </h1>
         
         {/* Categories Section */}
