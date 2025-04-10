@@ -51,6 +51,7 @@ import './App.css'
 import Home from './pages/Home.tsx';
 import Clothes from './pages/Clothes.tsx';
 import Page404 from './pages/Page404.tsx';
+import TShirts from './pages/TShirts.tsx';
 
 import Header from './components/Header.tsx';
 import Footer from './components/Footer.tsx';
@@ -73,6 +74,7 @@ function App() {
           <Route path="*" element={<Page404></Page404>} /> 
           <Route path="/" element={<Home></Home>} />
           <Route path="/clothes" element={<Clothes></Clothes>} />
+          <Route path="/clothes/t-shirts" element={<TShirts></TShirts>} />
         
           {/*<Route path="/login" element={<Login></Login>} />*/}
 

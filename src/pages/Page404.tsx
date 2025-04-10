@@ -6,7 +6,7 @@ const Page404 = () => {
 
   return (
     <div>
-      Hello world
+      404 Page
     </div>
   )
 
