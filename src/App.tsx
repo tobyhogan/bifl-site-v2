@@ -52,6 +52,9 @@ import Home from './pages/Home.tsx';
 import Clothes from './pages/Clothes.tsx';
 import Page404 from './pages/Page404.tsx';
 
+import Header from './components/Header.tsx';
+import Footer from './components/Footer.tsx';
+
 
 function App() {
 
@@ -64,6 +67,7 @@ function App() {
   return (
     <Router>
       <div className=''>
+        <Header />
         <Routes>
 
           <Route path="*" element={<Page404></Page404>} /> 
@@ -73,6 +77,7 @@ function App() {
           {/*<Route path="/login" element={<Login></Login>} />*/}
 
         </Routes>
+        <Footer />
       </div>
     </Router>
 
