@@ -1,0 +1,6 @@
+restructure product pages, 
+
+
+- make it so there are filters by only: region e..g euorpe, usa etc
+
+- then just have different price points for the different thigngs maybe? sounds like a good idea?
