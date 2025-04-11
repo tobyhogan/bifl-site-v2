@@ -1,4 +1,12 @@
 
 
+
+- I think the project might work better if I Just had one product for each category that updates based on stuff that's happening 
+
+
+
+
+
+
 - could I have a sepeerate url for dev deployments and actual live deployments, that seems like so much of a better idea I guessuppose?
 
